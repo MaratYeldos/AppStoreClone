@@ -31,6 +31,8 @@
 		AF19E2E1291FCF5600D34DF0 /* AppsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2E0291FCF5600D34DF0 /* AppsHeaderCell.swift */; };
 		AF19E2E3291FDF5100D34DF0 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2E2291FDF5100D34DF0 /* AppGroup.swift */; };
 		AF19E2E52920D01F00D34DF0 /* SocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2E42920D01F00D34DF0 /* SocialApp.swift */; };
+		AF19E2E72920E76600D34DF0 /* HorizontalSnappingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2E62920E76600D34DF0 /* HorizontalSnappingController.swift */; };
+		AF19E2E92920EBBA00D34DF0 /* BetterSnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2E82920EBBA00D34DF0 /* BetterSnappingLayout.swift */; };
 		D7D027D0F3F1540B4EB67505 /* Pods_AppStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB20B52ABE8E23E0CC93B8D /* Pods_AppStoreClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,8 @@
 		AF19E2E0291FCF5600D34DF0 /* AppsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsHeaderCell.swift; sourceTree = "<group>"; };
 		AF19E2E2291FDF5100D34DF0 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
 		AF19E2E42920D01F00D34DF0 /* SocialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialApp.swift; sourceTree = "<group>"; };
+		AF19E2E62920E76600D34DF0 /* HorizontalSnappingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSnappingController.swift; sourceTree = "<group>"; };
+		AF19E2E82920EBBA00D34DF0 /* BetterSnappingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSnappingLayout.swift; sourceTree = "<group>"; };
 		CC5271AECE79A77E08AC02F6 /* Pods-AppStoreClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreClone.debug.xcconfig"; path = "Target Support Files/Pods-AppStoreClone/Pods-AppStoreClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +158,7 @@
 			children = (
 				AF19E2BB291E3DCA00D34DF0 /* UIView+Layout.swift */,
 				AF19E2BC291E3DCA00D34DF0 /* VerticalStackView.swift */,
+				AF19E2E82920EBBA00D34DF0 /* BetterSnappingLayout.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 			children = (
 				AF19E2B0291E272200D34DF0 /* BaseTabBarController.swift */,
 				AF19E2C8291F939200D34DF0 /* BaseListController.swift */,
+				AF19E2E62920E76600D34DF0 /* HorizontalSnappingController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -364,6 +370,7 @@
 				AF19E2BD291E3DCA00D34DF0 /* UIView+Layout.swift in Sources */,
 				AF19E2C9291F939200D34DF0 /* BaseListController.swift in Sources */,
 				AF19E2B6291E2DDB00D34DF0 /* AppsSearchController.swift in Sources */,
+				AF19E2E92920EBBA00D34DF0 /* BetterSnappingLayout.swift in Sources */,
 				AF19E2CD291F953A00D34DF0 /* AppsGroupCell.swift in Sources */,
 				AF19E2C4291F728C00D34DF0 /* Service.swift in Sources */,
 				AF19E2E3291FDF5100D34DF0 /* AppGroup.swift in Sources */,
@@ -375,6 +382,7 @@
 				AF19E2D9291FA19D00D34DF0 /* UIButton + Extention.swift in Sources */,
 				AF19E2D7291FA13100D34DF0 /* UIImageView + Extention.swift in Sources */,
 				AF19E2DB291FAB8200D34DF0 /* AppsPageHeader.swift in Sources */,
+				AF19E2E72920E76600D34DF0 /* HorizontalSnappingController.swift in Sources */,
 				AF19E2D3291F992400D34DF0 /* AppsHorizontalController.swift in Sources */,
 				AF19E2D5291F9FC900D34DF0 /* AppRowCell.swift in Sources */,
 			);

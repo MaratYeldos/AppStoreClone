@@ -8,7 +8,7 @@
 import UIKit
 import SDWebImage
 
-class AppsHorizontalController: BaseListController {
+class AppsHorizontalController: HorizontalSnappingController {
     
     private let cellId = "cellId"
     private let topBottomPadding: CGFloat = 12
@@ -22,9 +22,7 @@ class AppsHorizontalController: BaseListController {
         collectionView.backgroundColor = .white
         collectionView.register(AppRowCell.self, forCellWithReuseIdentifier: cellId)
         
-        if let layout = collectionViewLayout as? UICollectionViewFlowLayout {
-            layout.scrollDirection = .horizontal
-        }
+        collectionView.contentInset = .init(top: topBottomPadding, left: 16, bottom: topBottomPadding, right: 16)
     }
 }
 
@@ -52,7 +50,7 @@ extension AppsHorizontalController: UICollectionViewDelegateFlowLayout {
         return lineSpacing
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return .init(top: topBottomPadding, left: 16, bottom: topBottomPadding, right: 16)
-    }
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+//        return .init(top: topBottomPadding, left: 0, bottom: topBottomPadding, right: 0)
+//    }
 }
