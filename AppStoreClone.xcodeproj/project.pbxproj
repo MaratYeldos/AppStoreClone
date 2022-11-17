@@ -33,6 +33,12 @@
 		AF19E2E52920D01F00D34DF0 /* SocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2E42920D01F00D34DF0 /* SocialApp.swift */; };
 		AF19E2E72920E76600D34DF0 /* HorizontalSnappingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2E62920E76600D34DF0 /* HorizontalSnappingController.swift */; };
 		AF19E2E92920EBBA00D34DF0 /* BetterSnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2E82920EBBA00D34DF0 /* BetterSnappingLayout.swift */; };
+		AF19E2EC292104E700D34DF0 /* AppDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2EB292104E700D34DF0 /* AppDetailController.swift */; };
+		AF19E2EF2921097700D34DF0 /* AppDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2EE2921097700D34DF0 /* AppDetailCell.swift */; };
+		AF19E2F129210F3800D34DF0 /* UIStackView + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2F029210F3800D34DF0 /* UIStackView + Extention.swift */; };
+		AF19E2F3292605FE00D34DF0 /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2F2292605FE00D34DF0 /* PreviewCell.swift */; };
+		AF19E2F5292607A900D34DF0 /* PreviewScreenshotsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2F4292607A900D34DF0 /* PreviewScreenshotsController.swift */; };
+		AF19E2F72926094700D34DF0 /* ScreenshotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2F62926094700D34DF0 /* ScreenshotCell.swift */; };
 		D7D027D0F3F1540B4EB67505 /* Pods_AppStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB20B52ABE8E23E0CC93B8D /* Pods_AppStoreClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +73,12 @@
 		AF19E2E42920D01F00D34DF0 /* SocialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialApp.swift; sourceTree = "<group>"; };
 		AF19E2E62920E76600D34DF0 /* HorizontalSnappingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSnappingController.swift; sourceTree = "<group>"; };
 		AF19E2E82920EBBA00D34DF0 /* BetterSnappingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSnappingLayout.swift; sourceTree = "<group>"; };
+		AF19E2EB292104E700D34DF0 /* AppDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailController.swift; sourceTree = "<group>"; };
+		AF19E2EE2921097700D34DF0 /* AppDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailCell.swift; sourceTree = "<group>"; };
+		AF19E2F029210F3800D34DF0 /* UIStackView + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extention.swift"; sourceTree = "<group>"; };
+		AF19E2F2292605FE00D34DF0 /* PreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
+		AF19E2F4292607A900D34DF0 /* PreviewScreenshotsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewScreenshotsController.swift; sourceTree = "<group>"; };
+		AF19E2F62926094700D34DF0 /* ScreenshotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotCell.swift; sourceTree = "<group>"; };
 		CC5271AECE79A77E08AC02F6 /* Pods-AppStoreClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreClone.debug.xcconfig"; path = "Target Support Files/Pods-AppStoreClone/Pods-AppStoreClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,6 +196,7 @@
 		AF19E2C5291F92EE00D34DF0 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				AF19E2EA292104CB00D34DF0 /* Details */,
 				AF19E2C6291F931B00D34DF0 /* AppsPageController.swift */,
 				AF19E2D2291F992400D34DF0 /* AppsHorizontalController.swift */,
 				AF19E2DC291FAE8800D34DF0 /* AppsHeaderHorizontalController.swift */,
@@ -202,6 +215,7 @@
 		AF19E2CB291F951200D34DF0 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				AF19E2ED2921096400D34DF0 /* Details */,
 				AF19E2CC291F953A00D34DF0 /* AppsGroupCell.swift */,
 				AF19E2D4291F9FC900D34DF0 /* AppRowCell.swift */,
 				AF19E2DA291FAB8200D34DF0 /* AppsPageHeader.swift */,
@@ -224,6 +238,7 @@
 				AF19E2D0291F97CA00D34DF0 /* UILabel + Extention.swift */,
 				AF19E2D6291FA13100D34DF0 /* UIImageView + Extention.swift */,
 				AF19E2D8291FA19D00D34DF0 /* UIButton + Extention.swift */,
+				AF19E2F029210F3800D34DF0 /* UIStackView + Extention.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -245,6 +260,25 @@
 				AF19E29E291E268C00D34DF0 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		AF19E2EA292104CB00D34DF0 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				AF19E2EB292104E700D34DF0 /* AppDetailController.swift */,
+				AF19E2F4292607A900D34DF0 /* PreviewScreenshotsController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		AF19E2ED2921096400D34DF0 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				AF19E2EE2921097700D34DF0 /* AppDetailCell.swift */,
+				AF19E2F2292605FE00D34DF0 /* PreviewCell.swift */,
+				AF19E2F62926094700D34DF0 /* ScreenshotCell.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,9 +402,11 @@
 				AF19E2C1291F6CD000D34DF0 /* SearchResult.swift in Sources */,
 				AF19E2C7291F931B00D34DF0 /* AppsPageController.swift in Sources */,
 				AF19E2BD291E3DCA00D34DF0 /* UIView+Layout.swift in Sources */,
+				AF19E2F5292607A900D34DF0 /* PreviewScreenshotsController.swift in Sources */,
 				AF19E2C9291F939200D34DF0 /* BaseListController.swift in Sources */,
 				AF19E2B6291E2DDB00D34DF0 /* AppsSearchController.swift in Sources */,
 				AF19E2E92920EBBA00D34DF0 /* BetterSnappingLayout.swift in Sources */,
+				AF19E2EF2921097700D34DF0 /* AppDetailCell.swift in Sources */,
 				AF19E2CD291F953A00D34DF0 /* AppsGroupCell.swift in Sources */,
 				AF19E2C4291F728C00D34DF0 /* Service.swift in Sources */,
 				AF19E2E3291FDF5100D34DF0 /* AppGroup.swift in Sources */,
@@ -379,11 +415,15 @@
 				AF19E2E1291FCF5600D34DF0 /* AppsHeaderCell.swift in Sources */,
 				AF19E2B9291E307D00D34DF0 /* SearchResultCell.swift in Sources */,
 				AF19E2BE291E3DCA00D34DF0 /* VerticalStackView.swift in Sources */,
+				AF19E2EC292104E700D34DF0 /* AppDetailController.swift in Sources */,
 				AF19E2D9291FA19D00D34DF0 /* UIButton + Extention.swift in Sources */,
 				AF19E2D7291FA13100D34DF0 /* UIImageView + Extention.swift in Sources */,
+				AF19E2F72926094700D34DF0 /* ScreenshotCell.swift in Sources */,
+				AF19E2F3292605FE00D34DF0 /* PreviewCell.swift in Sources */,
 				AF19E2DB291FAB8200D34DF0 /* AppsPageHeader.swift in Sources */,
 				AF19E2E72920E76600D34DF0 /* HorizontalSnappingController.swift in Sources */,
 				AF19E2D3291F992400D34DF0 /* AppsHorizontalController.swift in Sources */,
+				AF19E2F129210F3800D34DF0 /* UIStackView + Extention.swift in Sources */,
 				AF19E2D5291F9FC900D34DF0 /* AppRowCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
