@@ -43,6 +43,8 @@
 		AF19E2FB2926136900D34DF0 /* ReviewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2FA2926136900D34DF0 /* ReviewsController.swift */; };
 		AF19E2FD2926179300D34DF0 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2FC2926179300D34DF0 /* ReviewCell.swift */; };
 		AF19E2FF29261CCD00D34DF0 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2FE29261CCD00D34DF0 /* Reviews.swift */; };
+		AF19E3022927FA0200D34DF0 /* TodayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E3012927FA0200D34DF0 /* TodayController.swift */; };
+		AF19E3052927FA5D00D34DF0 /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E3042927FA5D00D34DF0 /* TodayCell.swift */; };
 		D7D027D0F3F1540B4EB67505 /* Pods_AppStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB20B52ABE8E23E0CC93B8D /* Pods_AppStoreClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,8 @@
 		AF19E2FA2926136900D34DF0 /* ReviewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsController.swift; sourceTree = "<group>"; };
 		AF19E2FC2926179300D34DF0 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		AF19E2FE29261CCD00D34DF0 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		AF19E3012927FA0200D34DF0 /* TodayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayController.swift; sourceTree = "<group>"; };
+		AF19E3042927FA5D00D34DF0 /* TodayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCell.swift; sourceTree = "<group>"; };
 		CC5271AECE79A77E08AC02F6 /* Pods-AppStoreClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreClone.debug.xcconfig"; path = "Target Support Files/Pods-AppStoreClone/Pods-AppStoreClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				AF19E2DE291FAF0C00D34DF0 /* Base */,
+				AF19E3002927F9E300D34DF0 /* Today */,
 				AF19E2CA291F940000D34DF0 /* Search */,
 				AF19E2C5291F92EE00D34DF0 /* Apps */,
 			);
@@ -167,6 +172,7 @@
 		AF19E2B7291E306300D34DF0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AF19E3032927FA5100D34DF0 /* Today */,
 				AF19E2CE291F959700D34DF0 /* Search */,
 				AF19E2CB291F951200D34DF0 /* Apps */,
 			);
@@ -293,6 +299,22 @@
 			path = Details;
 			sourceTree = "<group>";
 		};
+		AF19E3002927F9E300D34DF0 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				AF19E3012927FA0200D34DF0 /* TodayController.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		AF19E3032927FA5100D34DF0 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				AF19E3042927FA5D00D34DF0 /* TodayCell.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -416,7 +438,9 @@
 				AF19E2BD291E3DCA00D34DF0 /* UIView+Layout.swift in Sources */,
 				AF19E2F5292607A900D34DF0 /* PreviewScreenshotsController.swift in Sources */,
 				AF19E2C9291F939200D34DF0 /* BaseListController.swift in Sources */,
+				AF19E3022927FA0200D34DF0 /* TodayController.swift in Sources */,
 				AF19E2B6291E2DDB00D34DF0 /* AppsSearchController.swift in Sources */,
+				AF19E3052927FA5D00D34DF0 /* TodayCell.swift in Sources */,
 				AF19E2FD2926179300D34DF0 /* ReviewCell.swift in Sources */,
 				AF19E2FF29261CCD00D34DF0 /* Reviews.swift in Sources */,
 				AF19E2E92920EBBA00D34DF0 /* BetterSnappingLayout.swift in Sources */,
