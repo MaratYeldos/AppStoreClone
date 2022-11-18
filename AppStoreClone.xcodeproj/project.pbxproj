@@ -39,6 +39,10 @@
 		AF19E2F3292605FE00D34DF0 /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2F2292605FE00D34DF0 /* PreviewCell.swift */; };
 		AF19E2F5292607A900D34DF0 /* PreviewScreenshotsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2F4292607A900D34DF0 /* PreviewScreenshotsController.swift */; };
 		AF19E2F72926094700D34DF0 /* ScreenshotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2F62926094700D34DF0 /* ScreenshotCell.swift */; };
+		AF19E2F929260F2000D34DF0 /* ReviewRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2F829260F2000D34DF0 /* ReviewRowCell.swift */; };
+		AF19E2FB2926136900D34DF0 /* ReviewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2FA2926136900D34DF0 /* ReviewsController.swift */; };
+		AF19E2FD2926179300D34DF0 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2FC2926179300D34DF0 /* ReviewCell.swift */; };
+		AF19E2FF29261CCD00D34DF0 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19E2FE29261CCD00D34DF0 /* Reviews.swift */; };
 		D7D027D0F3F1540B4EB67505 /* Pods_AppStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB20B52ABE8E23E0CC93B8D /* Pods_AppStoreClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +83,10 @@
 		AF19E2F2292605FE00D34DF0 /* PreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
 		AF19E2F4292607A900D34DF0 /* PreviewScreenshotsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewScreenshotsController.swift; sourceTree = "<group>"; };
 		AF19E2F62926094700D34DF0 /* ScreenshotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotCell.swift; sourceTree = "<group>"; };
+		AF19E2F829260F2000D34DF0 /* ReviewRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRowCell.swift; sourceTree = "<group>"; };
+		AF19E2FA2926136900D34DF0 /* ReviewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsController.swift; sourceTree = "<group>"; };
+		AF19E2FC2926179300D34DF0 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		AF19E2FE29261CCD00D34DF0 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		CC5271AECE79A77E08AC02F6 /* Pods-AppStoreClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreClone.debug.xcconfig"; path = "Target Support Files/Pods-AppStoreClone/Pods-AppStoreClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,6 +189,7 @@
 				AF19E2C0291F6CD000D34DF0 /* SearchResult.swift */,
 				AF19E2E2291FDF5100D34DF0 /* AppGroup.swift */,
 				AF19E2E42920D01F00D34DF0 /* SocialApp.swift */,
+				AF19E2FE29261CCD00D34DF0 /* Reviews.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -267,6 +276,7 @@
 			children = (
 				AF19E2EB292104E700D34DF0 /* AppDetailController.swift */,
 				AF19E2F4292607A900D34DF0 /* PreviewScreenshotsController.swift */,
+				AF19E2FA2926136900D34DF0 /* ReviewsController.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -277,6 +287,8 @@
 				AF19E2EE2921097700D34DF0 /* AppDetailCell.swift */,
 				AF19E2F2292605FE00D34DF0 /* PreviewCell.swift */,
 				AF19E2F62926094700D34DF0 /* ScreenshotCell.swift */,
+				AF19E2F829260F2000D34DF0 /* ReviewRowCell.swift */,
+				AF19E2FC2926179300D34DF0 /* ReviewCell.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -405,6 +417,8 @@
 				AF19E2F5292607A900D34DF0 /* PreviewScreenshotsController.swift in Sources */,
 				AF19E2C9291F939200D34DF0 /* BaseListController.swift in Sources */,
 				AF19E2B6291E2DDB00D34DF0 /* AppsSearchController.swift in Sources */,
+				AF19E2FD2926179300D34DF0 /* ReviewCell.swift in Sources */,
+				AF19E2FF29261CCD00D34DF0 /* Reviews.swift in Sources */,
 				AF19E2E92920EBBA00D34DF0 /* BetterSnappingLayout.swift in Sources */,
 				AF19E2EF2921097700D34DF0 /* AppDetailCell.swift in Sources */,
 				AF19E2CD291F953A00D34DF0 /* AppsGroupCell.swift in Sources */,
@@ -416,11 +430,13 @@
 				AF19E2B9291E307D00D34DF0 /* SearchResultCell.swift in Sources */,
 				AF19E2BE291E3DCA00D34DF0 /* VerticalStackView.swift in Sources */,
 				AF19E2EC292104E700D34DF0 /* AppDetailController.swift in Sources */,
+				AF19E2F929260F2000D34DF0 /* ReviewRowCell.swift in Sources */,
 				AF19E2D9291FA19D00D34DF0 /* UIButton + Extention.swift in Sources */,
 				AF19E2D7291FA13100D34DF0 /* UIImageView + Extention.swift in Sources */,
 				AF19E2F72926094700D34DF0 /* ScreenshotCell.swift in Sources */,
 				AF19E2F3292605FE00D34DF0 /* PreviewCell.swift in Sources */,
 				AF19E2DB291FAB8200D34DF0 /* AppsPageHeader.swift in Sources */,
+				AF19E2FB2926136900D34DF0 /* ReviewsController.swift in Sources */,
 				AF19E2E72920E76600D34DF0 /* HorizontalSnappingController.swift in Sources */,
 				AF19E2D3291F992400D34DF0 /* AppsHorizontalController.swift in Sources */,
 				AF19E2F129210F3800D34DF0 /* UIStackView + Extention.swift in Sources */,
