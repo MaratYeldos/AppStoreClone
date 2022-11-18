@@ -45,7 +45,7 @@ extension AppsHorizontalController: UICollectionViewDelegateFlowLayout {
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let app = appGroup?.feed.results[indexPath.item] {
-            didSelectHandler?(app)            
+            didSelectHandler?(app)
         }
     }
     
