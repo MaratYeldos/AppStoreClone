@@ -76,6 +76,17 @@ extension UIView {
         if size.width != 0 {
             widthAnchor.constraint(equalToConstant: size.width).isActive = true
         }
+        
+        if size.height != 0 {
+            heightAnchor.constraint(equalToConstant: size.height).isActive = true
+        }
+    }
+    
+    func centerXInSuperview() {
+        translatesAutoresizingMaskIntoConstraints = false
+        if let superViewCenterXAnchor = superview?.centerXAnchor {
+            centerXAnchor.constraint(equalTo: superViewCenterXAnchor).isActive = true
+        }
     }
     
     func centerYInSuperview() {
@@ -99,3 +110,4 @@ extension UIView {
 struct AnchoredConstraints {
     var top, leading, bottom, trailing, width, height: NSLayoutConstraint?
 }
+
